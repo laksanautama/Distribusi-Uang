@@ -5,7 +5,7 @@
 
 using namespace std;
 
-//----kode di atas batas ini tidak boleh diganti atau ditambah tambah----
+//----kode di atas batas ini tidak boleh diganti atau ditambah----
 
 bool distribusi_uang(map<int, int>& distribusi, int uang_tersedia){
     int n = distribusi.size();
