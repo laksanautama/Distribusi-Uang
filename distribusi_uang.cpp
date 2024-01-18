@@ -42,3 +42,7 @@ void tampil_jml_karyawan(int n_karyawan){
         cout << "Tidak Diketahui" << endl;
     }
 }
+
+
+
+
