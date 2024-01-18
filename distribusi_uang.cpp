@@ -43,6 +43,15 @@ void tampil_jml_karyawan(int n_karyawan){
     }
 }
 
+int main(){
+    int n_karyawan;
+    cout << "Masukkan jumlah karyawan: ";
+    cin >> n_karyawan;
+
+    tampil_jml_karyawan(n_karyawan);
+
+    return 0;
+}
 
 
 
