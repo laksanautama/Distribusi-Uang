@@ -5,7 +5,7 @@
 
 using namespace std;
 
-//----kode di atas batas ini tidak boleh diganti atau ditambah----
+//----kode di atas batas ini tidak boleh diganti atau ditambah tambah----
 
 
 void tampil_jml_karyawan(){
