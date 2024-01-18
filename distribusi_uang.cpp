@@ -21,6 +21,17 @@ bool distribusi_uang(map<int, int>& distribusi, int uang_tersedia){
         return false;
 
     for(int i = 0; i < n; i++){
+    distribusi[i] = rupiah_per_karyawan;
+    }
+
+    return true;
+}
+
+void tampil_jml_karyawan(int n_karyawan){
+    map<int, int> distribusi;
+    int uang_tersedia = 8000000;
+
+    for(int i = 0; i < n_karyawan; i++){
 
 int main(){
 
