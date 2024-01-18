@@ -32,8 +32,13 @@ void tampil_jml_karyawan(int n_karyawan){
     int uang_tersedia = 8000000;
 
     for(int i = 0; i < n_karyawan; i++){
+    distribusi[i] = 0;
+    }
 
-int main(){
-
-return 0;
+    if(distribusi_uang(distribusi, uang_tersedia)){
+        cout << "Jumlah karyawan yang memperoleh uang sebanyak Rp. 8.000.000 adalah " << distribusi.size() << endl;
+    }
+    else{
+        cout << "Tidak Diketahui" << endl;
+    }
 }
